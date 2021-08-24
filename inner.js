@@ -1,49 +1,50 @@
 mainWordText.addEventListener('click', function() {
-    box2.style.display = 'block'
-    box2.style.height = '200px'
-    mainWordIcon.classList.add('rorate')
-    mainWordLine.style.display = 'block'
+    box2.classList.toggle('active')
+    box2.style.height = '170px'
+    mainWordIcon.classList.toggle('rorate')
+    mainWordLine.classList.toggle('active')
     for (let i = 0; i < 4; i++) {
-        collapseArrow.item(i).style.display = 'block'
-        circle.item(i).style.display = 'block'
-        mainProvince.item(i).style.display = 'block'
+        collapseArrow.item(i).classList.toggle('active')
+        circle.item(i).classList.toggle('active')
+        mainProvince.item(i).classList.toggle('active')
     }
     AzarbayjanSH.addEventListener('click', function() {
-        AzarbayjanSHPointer.classList.add('rorate')
-        box2.style.height = '230px'
+        AzarbayjanSHPointer.classList.toggle('rorate')
+        box2.style.height = '210px'
         for (let j = 0; j < 2; j++) {
-            littleboxAzSh.item(j).style.display = 'block'
-            secondPointer.item(j).style.display = 'block'
-            secondCircle.item(j).style.display = 'block'
-            secondInnerProvince.item(j).style.display = 'block'
+            littleboxAzSh.item(j).classList.toggle('active')
+            secondPointer.item(j).classList.toggle('active')
+            secondCircle.item(j).classList.toggle('active')
+            secondInnerProvince.item(j).classList.toggle('active')
         }
         AzadShahr.addEventListener('click', function() {
             box2.style.height = '300px'
-            AzadShahrIcon.classList.add('rorate')
+            AzadShahrIcon.classList.toggle('rorate')
             for (let i = 0; i < 3; i++) {
-                innerProvinceBox1.style.display = 'block'
-                secondNumLines.item(i).style.display = 'block'
-                secondNumCircle.item(i).style.display = 'block'
-                secondNumInner.item(i).style.display = 'block'
+                innerProvinceBox1.classList.toggle('active')
+                secondNumLines.item(i).classList.toggle('active')
+                secondNumCircle.item(i).classList.toggle('active')
+                secondNumInner.item(i).classList.toggle('active')
             }
         })
     })
     Esfahan.addEventListener('click', function(e) {
-        box2.style.height = '570px'
+        box2.style.height = '570px';
+        EsfahanIcon.classList.toggle('rorate')
         for (let k = 0; k < 6; k++) {
-            littleboxEs.item(k).style.display = 'block'
-            thirdPointer.item(k).style.display = 'block'
-            thirdCircle.item(k).style.display = 'block'
-            thirdInnerProvince.item(k).style.display = 'block'
+            littleboxEs.item(k).classList.toggle('active')
+            thirdPointer.item(k).classList.toggle('active')
+            thirdCircle.item(k).classList.toggle('active')
+            thirdInnerProvince.item(k).classList.toggle('active')
         }
         AranBidgol.addEventListener('click', function() {
-            AranBidgolIcon.classList.add('rorate')
+            AranBidgolIcon.classList.toggle('rorate')
             box2.style.height = '645px'
             for (let i = 0; i < 3; i++) {
-                innerProvinceBox2.style.display = 'block'
-                thirdNumLines.item(i).style.display = 'block'
-                thirdNumCircle.item(i).style.display = 'block'
-                thirdNumInner.item(i).style.display = 'block'
+                innerProvinceBox2.classList.toggle('active')
+                thirdNumLines.item(i).classList.toggle('active')
+                thirdNumCircle.item(i).classList.toggle('active')
+                thirdNumInner.item(i).classList.toggle('active')
             }
         })
     })
