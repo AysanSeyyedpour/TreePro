@@ -1,0 +1,186 @@
+body {
+    font-family: 'Vazir';
+}
+
+.rorate {
+    transform: rotate(180deg);
+}
+
+.active {
+    display: block;
+}
+
+.dovom {
+    margin: 30px;
+    position: relative;
+    border-top-right-radius: none;
+    width: 80px;
+    border-width: 1px;
+}
+
+.box {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom-right-radius: 5px;
+    width: 20px;
+    height: 25px;
+    display: none;
+}
+
+.collapseArrow {
+    display: none;
+}
+
+.textColor {
+    color: rgb(12, 89, 88);
+}
+
+.numTextColor {
+    color: #fd0545;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -4.5px;
+    right: -11px;
+    cursor: pointer;
+}
+
+.box2 {
+    height: 653px;
+    width: 0px;
+    border-left: 0.25px solid gray;
+}
+
+.mainProvince {
+    display: none;
+}
+
+.inner2 {
+    position: relative;
+    right: 57px;
+    top: -20px;
+}
+
+
+/* .provinces {
+    display: none;
+    position: relative;
+    right: -12px;
+    top: -22px;
+} */
+
+.littlebox {
+    height: 5px;
+    width: 40px;
+    border-bottom: 1px solid grey;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 10px;
+    right: -.5px;
+}
+
+.littlebox1,
+.littlebox2 {
+    height: 5px;
+    width: 40px;
+    border-bottom: 1px solid grey;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 10px;
+    right: -2px;
+}
+
+
+/* .littlebox1 {
+    display: none;
+} */
+
+.selectProvinces {
+    position: relative;
+    right: -3px;
+}
+
+.innerProvinceBox {
+    width: 0px;
+    height: 85px;
+    border-right: 1px solid grey;
+    position: relative;
+    top: -12px;
+    right: -2px;
+    border-bottom-right-radius: 1px;
+}
+
+.inners {
+    position: relative;
+    right: -89px;
+    top: 33px;
+}
+
+.inners2 {
+    position: relative;
+    right: -119.5px;
+    top: 32px;
+    margin-bottom: 30px;
+}
+
+.AzarbayjanSH,
+.Esfahan,
+.AzadShahr,
+.AranBidgol {
+    cursor: pointer;
+}
+
+.secondPointer,
+.secondCircle,
+.secondInnerProvince,
+.thirdPointer,
+.thirdCircle,
+.thirdInnerProvince,
+.secondNumCircle,
+.secondNumInner,
+.thirdNumCircle,
+.thirdNumInner,
+.littlebox1,
+.littlebox2,
+#innerProvinceBox1,
+#innerProvinceBox2,
+.littleboxAzSh,
+.littleboxEs,
+.box2 {
+    display: none;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #fd0545;
+    background-color: #fd0545;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 6px;
+}
+
+.circles {
+    display: none;
+}
+
+.circleInner {
+    position: relative;
+    top: -.5px;
+    right: 4.4px;
+    color: white;
+    font-size: 12px;
+}
+
+.greenCircle {
+    background-color: rgb(0, 180, 76) !important;
+    border-color: rgb(0, 180, 76) !important;
+}
+
+.greenCircleInner {
+    top: -1px !important;
+    right: 3px !important;
+}
