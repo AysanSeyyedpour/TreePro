@@ -2,6 +2,31 @@ body {
     font-family: 'Vazir';
 }
 
+.box.active,
+.collapseArrow.active,
+.circles.active,
+.box2.active,
+.mainProvince.active,
+.littleboxAzSh.active,
+.secondPointer.active,
+.secondCircle.active,
+.secondInnerProvince.active,
+#innerProvinceBox1.active,
+.innerProvinceBox.active,
+.littlebox1.active,
+.secondNumCircle.active,
+.secondNumInner.active,
+.littleboxEs.active,
+.thirdPointer.active,
+.thirdCircle.active,
+.thirdInnerProvince.active,
+#innerProvinceBox2.active,
+.littlebox2.active,
+.thirdNumCircle,
+.thirdNumInner.active {
+    display: block;
+}
+
 .rorate {
     transform: rotate(180deg);
 }
