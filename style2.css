@@ -2,6 +2,10 @@ body {
     font-family: 'Vazir';
 }
 
+header {
+    color: red;
+}
+
 .rorate {
     transform: rotate(180deg);
 }
